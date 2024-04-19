@@ -19,6 +19,10 @@ db.init_app(app)
 
 api = Api(app)
 
+# class AllRestaurants(Resource):
+#     def get(self, method:):
+       
+
 @app.route("/")
 def index():
     return "<h1>Code challenge</h1>"
